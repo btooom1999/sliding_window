@@ -4,21 +4,26 @@ fn find_anagrams(s: String, p: String) -> Vec<i32> {
     }
 
     let s = s.chars().collect::<Vec<_>>();
-    let mut hashmap = vec![0;26];
-    for c in p.chars() {
-        hashmap[(c as u8 - b'a') as usize] += 1;
+    let p_len = p.len();
+    let mut p_windows = vec![0;26];
+    let mut s_windows = vec![0;26];
+
+    for (i, c) in p.chars().enumerate() {
+        p_windows[(c as u8 - b'a') as usize] += 1;
+        s_windows[(s[i] as u8 - b'a') as usize] += 1;
     }
 
     let mut res = Vec::new();
-    for (i, _) in s.iter().enumerate().take(s.len() - p.len() + 1) {
-        let mut temp_hashmap = vec![0;26];
-        let mut j = i;
-        while j < i + p.len() {
-            temp_hashmap[(s[j] as u8 - b'a') as usize] += 1;
-            j += 1;
-        }
-        if temp_hashmap == hashmap {
-            res.push(i as i32);
+    if p_windows == s_windows {
+        res.push(0);
+    }
+
+    for (i, _) in s.iter().enumerate().skip(p_len) {
+        s_windows[(s[i - p_len] as u8 - b'a') as usize] -= 1;
+        s_windows[(s[i] as u8 - b'a') as usize] += 1;
+
+        if s_windows == p_windows {
+            res.push((i - p_len + 1) as i32);
         }
     }
 
