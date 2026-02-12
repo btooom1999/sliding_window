@@ -9,7 +9,8 @@ mod number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_threshol
 mod grumpy_bookstore_owner;
 mod max_consecutive_one_2;
 mod alternating_groups_1;
+mod alternating_groups_2;
 
 fn main() {
-    alternating_groups_1::main();
+    alternating_groups_2::main();
 }
