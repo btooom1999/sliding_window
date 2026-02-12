@@ -11,7 +11,8 @@ mod max_consecutive_one_2;
 mod alternating_groups_1;
 mod alternating_groups_2;
 mod longest_substring_without_repeating_characters;
+mod longest_substring_with_at_most_two_distinct_characters;
 
 fn main() {
-    longest_substring_without_repeating_characters::main();
+    longest_substring_with_at_most_two_distinct_characters::main();
 }
