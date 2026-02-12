@@ -10,7 +10,8 @@ mod grumpy_bookstore_owner;
 mod max_consecutive_one_2;
 mod alternating_groups_1;
 mod alternating_groups_2;
+mod longest_substring_without_repeating_characters;
 
 fn main() {
-    alternating_groups_2::main();
+    longest_substring_without_repeating_characters::main();
 }
