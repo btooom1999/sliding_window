@@ -14,5 +14,5 @@ mod longest_substring_without_repeating_characters;
 mod longest_substring_with_at_most_two_distinct_characters;
 
 fn main() {
-    longest_substring_with_at_most_two_distinct_characters::main();
+    longest_substring_without_repeating_characters::main();
 }
