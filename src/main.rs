@@ -7,7 +7,6 @@ mod minimum_recolors_to_get_k_consecutive_black_blocks;
 mod minimum_difference_between_highest_and_lowest_of_k_scores;
 mod number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_threshold;
 mod grumpy_bookstore_owner;
-mod max_consecutive_one_2;
 mod alternating_groups_1;
 mod alternating_groups_2;
 mod longest_substring_without_repeating_characters;
