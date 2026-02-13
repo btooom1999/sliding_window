@@ -14,7 +14,8 @@ mod longest_substring_without_repeating_characters;
 mod longest_substring_with_at_most_two_distinct_characters;
 mod longest_repeating_character_replacement;
 mod permutation_in_string;
+mod longest_substring_with_at_most_k_distinct_characters;
 
 fn main() {
-    permutation_in_string::main();
+    longest_substring_with_at_most_k_distinct_characters::main();
 }
