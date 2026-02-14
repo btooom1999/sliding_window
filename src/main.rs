@@ -17,7 +17,8 @@ mod longest_substring_with_at_most_k_distinct_characters;
 mod frequency_of_the_most_frequent_element;
 mod length_of_longest_subarray_with_at_most_k_frequency;
 mod find_the_power_of_k_size_subarrays_1;
+mod maximum_sum_of_distinct_subarrays_with_length_k;
 
 fn main() {
-    find_the_power_of_k_size_subarrays_1::main();
+    maximum_sum_of_distinct_subarrays_with_length_k::main();
 }
