@@ -19,7 +19,8 @@ mod length_of_longest_subarray_with_at_most_k_frequency;
 mod find_the_power_of_k_size_subarrays_1;
 mod maximum_sum_of_distinct_subarrays_with_length_k;
 mod maximum_the_confusion_of_an_exam;
+mod longest_subarray_of_1s_after_deleting_one_element;
 
 fn main() {
-    maximum_the_confusion_of_an_exam::main();
+    longest_subarray_of_1s_after_deleting_one_element::main();
 }
