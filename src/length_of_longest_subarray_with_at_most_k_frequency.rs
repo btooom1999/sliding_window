@@ -14,12 +14,11 @@ fn max_subarray_length(nums: Vec<i32>, k: i32) -> i32 {
         }
 
         while flag && let Some(prev_val) = hashmap.get_mut(&nums[l]) {
+            if nums[l] == num {
+                flag = false;
+            }
             *prev_val -= 1;
             l += 1;
-            if nums[l-1] == num {
-                flag = false;
-                break;
-            }
         }
 
         res = res.max(r - l + 1);
@@ -29,7 +28,7 @@ fn max_subarray_length(nums: Vec<i32>, k: i32) -> i32 {
 }
 
 pub fn main() {
-    let nums = [1,2,3,1,2,3,1,2].to_vec();
-    let k = 2;
+    let nums = [1,4,4,3].to_vec();
+    let k = 1;
     println!("{}", max_subarray_length(nums, k));
 }
