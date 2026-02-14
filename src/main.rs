@@ -14,7 +14,8 @@ mod longest_substring_with_at_most_two_distinct_characters;
 mod longest_repeating_character_replacement;
 mod permutation_in_string;
 mod longest_substring_with_at_most_k_distinct_characters;
+mod frequency_of_the_most_frequent_element;
 
 fn main() {
-    longest_substring_with_at_most_k_distinct_characters::main();
+    frequency_of_the_most_frequent_element::main();
 }
