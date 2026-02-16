@@ -23,7 +23,8 @@ mod longest_subarray_of_1s_after_deleting_one_element;
 mod maximum_number_of_vowels_in_a_substring_of_given_length;
 mod number_of_zero_filled_subarrays;
 mod arithmetic_slices;
+mod fruit_into_baskets;
 
 fn main() {
-    arithmetic_slices::main();
+    fruit_into_baskets::main();
 }
