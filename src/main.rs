@@ -24,7 +24,8 @@ mod maximum_number_of_vowels_in_a_substring_of_given_length;
 mod number_of_zero_filled_subarrays;
 mod arithmetic_slices;
 mod fruit_into_baskets;
+mod k_radius_subarray_averages;
 
 fn main() {
-    fruit_into_baskets::main();
+    k_radius_subarray_averages::main();
 }
