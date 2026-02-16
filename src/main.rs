@@ -21,7 +21,8 @@ mod maximum_sum_of_distinct_subarrays_with_length_k;
 mod maximum_the_confusion_of_an_exam;
 mod longest_subarray_of_1s_after_deleting_one_element;
 mod maximum_number_of_vowels_in_a_substring_of_given_length;
+mod number_of_zero_filled_subarrays;
 
 fn main() {
-    maximum_number_of_vowels_in_a_substring_of_given_length::main();
+    number_of_zero_filled_subarrays::main();
 }
