@@ -25,7 +25,8 @@ mod number_of_zero_filled_subarrays;
 mod arithmetic_slices;
 mod fruit_into_baskets;
 mod k_radius_subarray_averages;
+mod maximum_average_subarray_1;
 
 fn main() {
-    k_radius_subarray_averages::main();
+    maximum_average_subarray_1::main();
 }
