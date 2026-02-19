@@ -29,7 +29,8 @@ mod maximum_average_subarray_1;
 mod get_equal_substrings_within_budget;
 mod number_of_substrings_containing_all_three_characters;
 mod subarray_product_less_than_k;
+mod count_subarrays_where_max_element_appears_at_least_k_times;
 
 fn main() {
-    subarray_product_less_than_k::main();
+    count_subarrays_where_max_element_appears_at_least_k_times::main();
 }
