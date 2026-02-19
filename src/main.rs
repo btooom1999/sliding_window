@@ -31,7 +31,8 @@ mod number_of_substrings_containing_all_three_characters;
 mod subarray_product_less_than_k;
 mod count_subarrays_where_max_element_appears_at_least_k_times;
 mod maximum_beauty_of_an_array_after_applying_operation;
+mod take_k_of_each_character_from_left_and_right;
 
 fn main() {
-    maximum_beauty_of_an_array_after_applying_operation::main();
+    take_k_of_each_character_from_left_and_right::main();
 }
