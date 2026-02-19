@@ -33,8 +33,9 @@ mod count_subarrays_where_max_element_appears_at_least_k_times;
 mod maximum_beauty_of_an_array_after_applying_operation;
 mod take_k_of_each_character_from_left_and_right;
 mod count_of_substrings_containing_every_vowel_and_k_consonants_2;
+mod count_of_substrings_containing_every_vowel_and_k_consonants_1;
 mod longest_substring_of_all_vowels_in_order;
 
 fn main() {
-    longest_substring_of_all_vowels_in_order::main();
+    count_of_substrings_containing_every_vowel_and_k_consonants_1::main();
 }
