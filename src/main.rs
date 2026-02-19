@@ -28,7 +28,8 @@ mod k_radius_subarray_averages;
 mod maximum_average_subarray_1;
 mod get_equal_substrings_within_budget;
 mod number_of_substrings_containing_all_three_characters;
+mod subarray_product_less_than_k;
 
 fn main() {
-    number_of_substrings_containing_all_three_characters::main();
+    subarray_product_less_than_k::main();
 }
