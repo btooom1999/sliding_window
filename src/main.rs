@@ -27,7 +27,8 @@ mod fruit_into_baskets;
 mod k_radius_subarray_averages;
 mod maximum_average_subarray_1;
 mod get_equal_substrings_within_budget;
+mod number_of_substrings_containing_all_three_characters;
 
 fn main() {
-    get_equal_substrings_within_budget::main();
+    number_of_substrings_containing_all_three_characters::main();
 }
