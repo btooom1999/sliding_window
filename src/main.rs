@@ -30,7 +30,8 @@ mod get_equal_substrings_within_budget;
 mod number_of_substrings_containing_all_three_characters;
 mod subarray_product_less_than_k;
 mod count_subarrays_where_max_element_appears_at_least_k_times;
+mod maximum_beauty_of_an_array_after_applying_operation;
 
 fn main() {
-    count_subarrays_where_max_element_appears_at_least_k_times::main();
+    maximum_beauty_of_an_array_after_applying_operation::main();
 }
