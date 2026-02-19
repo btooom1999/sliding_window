@@ -26,7 +26,8 @@ mod arithmetic_slices;
 mod fruit_into_baskets;
 mod k_radius_subarray_averages;
 mod maximum_average_subarray_1;
+mod get_equal_substrings_within_budget;
 
 fn main() {
-    maximum_average_subarray_1::main();
+    get_equal_substrings_within_budget::main();
 }
