@@ -35,7 +35,8 @@ mod take_k_of_each_character_from_left_and_right;
 mod count_of_substrings_containing_every_vowel_and_k_consonants_2;
 mod count_of_substrings_containing_every_vowel_and_k_consonants_1;
 mod longest_substring_of_all_vowels_in_order;
+mod find_k_length_substrings_with_no_repeated_characters;
 
 fn main() {
-    count_of_substrings_containing_every_vowel_and_k_consonants_1::main();
+    find_k_length_substrings_with_no_repeated_characters::main();
 }
