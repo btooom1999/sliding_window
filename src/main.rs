@@ -39,7 +39,8 @@ mod find_k_length_substrings_with_no_repeated_characters;
 mod sliding_window_maximum;
 mod minimum_window_substring;
 mod substring_with_concatenation_of_all_words;
+mod minimum_depth_of_binary_tree;
 
 fn main() {
-    substring_with_concatenation_of_all_words::main();
+    minimum_depth_of_binary_tree::main();
 }
