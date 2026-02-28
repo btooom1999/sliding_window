@@ -37,7 +37,8 @@ mod count_of_substrings_containing_every_vowel_and_k_consonants_1;
 mod longest_substring_of_all_vowels_in_order;
 mod find_k_length_substrings_with_no_repeated_characters;
 mod sliding_window_maximum;
+mod minimum_window_substring;
 
 fn main() {
-    sliding_window_maximum::main();
+    minimum_window_substring::main();
 }
