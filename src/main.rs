@@ -38,7 +38,8 @@ mod longest_substring_of_all_vowels_in_order;
 mod find_k_length_substrings_with_no_repeated_characters;
 mod sliding_window_maximum;
 mod minimum_window_substring;
+mod substring_with_concatenation_of_all_words;
 
 fn main() {
-    minimum_window_substring::main();
+    substring_with_concatenation_of_all_words::main();
 }
