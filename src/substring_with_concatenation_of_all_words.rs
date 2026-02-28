@@ -30,16 +30,13 @@ fn find_substring(s: String, words: Vec<String>) -> Vec<i32> {
             groups.push_back((r+1-k, value));
 
             if *n == words.len() {
+                let (idx, key) = groups.pop_front().unwrap();
                 if *hashmap == conditions {
-                    let (idx, key) = groups.pop_front().unwrap();
                     res.push(idx as _);
-                    hashmap.entry(key).and_modify(|v| *v -= 1);
-                    *n -= 1;
-                } else {
-                    let popped = strings.get_mut(&key).unwrap().pop_front().unwrap();
-                    hashmap.entry(popped.1).and_modify(|v| *v -= 1);
-                    *n -= 1;
                 }
+
+                hashmap.entry(key).and_modify(|v| *v -= 1);
+                *n -= 1;
             }
         }
     }
