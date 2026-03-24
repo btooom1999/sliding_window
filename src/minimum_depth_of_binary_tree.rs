@@ -64,11 +64,9 @@ fn helper(node: Option<Rc<RefCell<TreeNode>>>, num: i32, min: &mut i32) -> i32 {
 }
 
 fn min_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
-    if root.is_none() { return 0; }
-
     let mut min = i32::MAX;
     helper(root, 0, &mut min);
-    min
+    min % i32::MAX
 }
 
 pub fn main() {

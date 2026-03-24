@@ -40,7 +40,8 @@ mod sliding_window_maximum;
 mod minimum_window_substring;
 mod substring_with_concatenation_of_all_words;
 mod minimum_depth_of_binary_tree;
+mod repeated_dna_sequences;
 
 fn main() {
-    minimum_depth_of_binary_tree::main();
+    repeated_dna_sequences::main();
 }
